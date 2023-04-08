@@ -5,10 +5,25 @@
   color: white;
 }
 
+.curriculum {
+  display: inline-block;
+  position: relative;
+}
+.curriculum__list {
+  display: inline-flex;
+  font-size: var(--font-size-larger);
+  font-weight: 100;
+  text-align: left;
+  color: white;
+}
 
-
+/* ===== 모바일 설정 ===== */
 
 @media (max-width: 768px) {
+  .curriculum__list {
+    flex-direction: column;
+    margin-top: 48px;
+  }
 
 }
 
@@ -18,5 +33,8 @@
   #curriculum {
     grid-column: 1 / -1;
     padding-bottom: 88px;
+  }
+  .curriculum__list {
+    margin: 56px 0 56px 40px;
   }
 }
