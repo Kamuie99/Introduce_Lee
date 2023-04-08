@@ -14,7 +14,7 @@
   top: 0; bottom: 0;
   left: 0; right: 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.67);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* ===== 텍스트 ===== */
@@ -73,7 +73,7 @@
     height: 500px;
   }
   .intro__type {
-    margin-top: 172px;
+    margin-top: 220px;
     align-items: center;
   }
   .intro__type span {

@@ -6,14 +6,16 @@
 @import url('./styles/6-curriculum.css');
 @import url('./styles/7-contact.css');
 @import url('./styles/8-footer.css');
+@import url('./styles/9-travel.css');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 
 /* ===== 변수 구간 ===== */
 :root {
-  --color-main: #92bdf5;
-  --color-sub: #00A200;
+  --color-main: #F9C700;
+  --color-sub: #e67e22;
   --color-dark: #2F4858;
   --color-emph: #F10F5F;
   --color-text: #281812;

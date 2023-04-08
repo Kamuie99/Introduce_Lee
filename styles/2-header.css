@@ -12,7 +12,7 @@
   align-items: center;
   background-color: var(--color-main);
 
-  color: white;
+  color: black;
 }
 
 /* ===== 왼쪽 링크와 로고 ===== */
@@ -101,7 +101,7 @@
     left: 50%;
     width: 0;
     height: 0;
-    background-color: white;
+    background-color: black;
     transition: all 350ms;
   }
   .header__nav-item:hover::after {
