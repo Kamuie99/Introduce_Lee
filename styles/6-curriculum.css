@@ -1,5 +1,22 @@
-@media (max-width: 768px) {
+#curriculum {
+  background-color: var(--color-dark);
+}
+#curriculum .section__title {
+  color: white;
 }
 
+
+
+
+@media (max-width: 768px) {
+
+}
+
+/* ===== 데스크탑 설정 ===== */
+
 @media (min-width: 769px) {
+  #curriculum {
+    grid-column: 1 / -1;
+    padding-bottom: 88px;
+  }
 }
