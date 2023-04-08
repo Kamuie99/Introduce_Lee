@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>병아리 개발자</title>
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <!----- intro 영역 ----->
+
+  <section class="intro">
+    <div class="intro__dark">
+      <div class="intro__type">
+        <div><span aria-hidden="true">🐣</span> 병아Lee가</div>
+        <div> 닭이 되는 그 날까지...<span class="underscore">_</span></div>
+      </div>
+    </div>
+    <div class="intro__tilt"></div>
+    <div class="intro__tilt--flip"></div>
+  </section>
+
+  <!----- header 영역 ----->
+
+  <header class="header">
+    <h1>
+      <a class="header__homelink" href="#">
+        <img class="header__logo" src="./images/logo.svg" alt="홈으로">
+      </a>
+    </h1>
+    <input class="header__menu-btn" type="checkbox">
+    <nav class="header__nav">
+      <ul>
+        <li class="header__nav-item">
+          <a href="#about">병아Lee는</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#html">HTML</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#css">CSS</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="curriculum">닭이 되는 과정</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#contact">병아리 정보</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!----- about 영역 ----->
+
+  <main>
+    <section id="about" class="section">
+      <header class="section__header">
+        <strong class="section__tag">
+          about
+        </strong>
+        <h1 class="section__title">
+          병아Lee
+        </h1>
+      </header>
+      <div class="about">
+        <div class="about__card">
+          <img class="about__icon" src="./images/about_1.svg" alt="">
+          <h2 class="about__title _1">
+            빠른 체력탈진
+          </h2>
+          <p class="about__text">
+            언제나 빠른 체력소모로 <br>
+            늘 시체가 되어 있습니다.
+          </p>
+        </div>
+        <div class="about__card">
+          <img class="about__icon" src="./images/about_2.svg" alt="">
+          <h2 class="about__title _2">
+            삐약 코린이
+          </h2>
+          <p class="about__text">
+            해 본 언어는 많지만 <br>
+            잘 다루는 언어는 없습니다.
+          </p>
+        </div>
+        <div class="about__card">
+          <img class="about__icon" src="./images/about_3.svg" alt="">
+          <h2 class="about__title _3">
+            게임이 좋아요!
+          </h2>
+          <p class="about__text">
+            하라는 공부는 안하고 <br>
+            맨날 게임만 합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!----- Studying 영역 ----->
+
+    <section id="html" class="section">
+      <header class="section__header">
+        <strong class="section__tag">
+          html
+        </strong>
+        <h1 class="section__title">
+          HTML 초보
+        </h1>
+      </header>
+      <article class="html-css _html">
+        <figure class="html-css__thumb">
+          <img class="html-css__logo" src="./images/logo-html.svg" alt="HTML 로고">
+        </figure>
+        <div class="html-css__content">
+          <h2 class="html-css__title">
+            <div>
+              <em>H</em>yper<em>T</em>ext <br>
+              <em>M</em>arkup <em>L</em>anguage
+            </div>
+          </h2>
+          <p class="html-css__desc">
+            <strong>태그</strong>를 사용하여 웹페이지 안의 요소들과 <br>
+            그 구조를 표현할 수 있는 언어입니다.
+          </p>
+          <dl class="html-css__spec">
+            <dt class="sr-only">종류</dt>
+            <dd>마크업</dd>
+            <dt class="sr-only">용도</dt>
+            <dd>웹개발</dd>
+            <dt class="sr-only">난이도</dt>
+            <dd>쉬움</dd>
+          </dl>
+        </div>
+      </article>
+    </section>
+
+    <section id="css" class="section">
+      <header class="section__header">
+        <strong class="section__tag">
+          css
+        </strong>
+        <h1 class="section__title">
+          css 초보
+        </h1>
+      </header>
+      <article class="html-css _css">
+        <figure class="html-css __thumb">
+          <img class="html-css__logo" src="./images/logo-css.svg" alt="CSS 로고">
+        </figure>
+        <div class="html-css__content">
+          <h2 class="html-css__title">
+            <div>
+              <em>C</em>ascade <br>
+              <em>S</em>type  <em>S</em>heet
+            </div>
+          </h2>
+          <p class="html-css__desc">
+            웹페이지 요소에 각종 속성을 부여하여  <br>
+            다양하게 <strong>스타일링</strong>할 수 있는 언어입니다.
+          </p>
+          <dl class="html-css__spec">
+            <dt class="sr-only">종류</dt>
+            <dd>스타일</dd>
+            <dt class="sr-only">용도</dt>
+            <dd>웹개발</dd>
+            <dt class="sr-only">난이도</dt>
+            <dd>중간</dd>
+          </dl>
+        </div>
+      </article>
+    </section>
+
+  </main>
+</body>
+</html>
