@@ -93,7 +93,7 @@ input[type=radio]:checked {
 /* 텍스트 인풋의 경우 focus-visible이 focus를 override */
 .contact__leave textarea:focus-visible,
 .contact__leave input[type=email]:focus-visible {
-  border: 2px solid var(--color-sub);
+  border: 2px solid var(--color-main);
   outline: none;
 }
 .contact__leave div {
@@ -115,7 +115,7 @@ input[type=radio]:checked {
   height: 64px;
   line-height: 64px;
   color: white;
-  background-color: var(--color-sub);
+  background-color: var(--color-main);
   cursor: pointer;
   transition: all 350ms;
 }
