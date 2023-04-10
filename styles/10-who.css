@@ -23,6 +23,7 @@
 .who__card em {
   color: var(--color-sub);
 }
+
 .who__card div {
   float: left;
   margin-right: 100px;
@@ -60,9 +61,22 @@
 
 /* ===== 모바일 설정 ===== */
 @media (max-width: 768px) {
-  .who {
+  .who__card {
     flex-direction: column;
     width: 100%;
+    height: 400px;
+    margin-right: 0;
+    text-align: center;
+    display: inline-flex;
+    padding: 0;
+    padding-left: 80px;
+  }
+  .who__title {
+    font-size: 20px;
+  }
+  .who__text {
+    font-size: 16px;
+    width: 110%;
   }
 }
 

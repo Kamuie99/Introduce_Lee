@@ -160,6 +160,9 @@ input[type=radio]:checked {
   .contact__leave input[type=email] {
     width: 80vw;
   }
+  .contact__tab {
+    font-size: 15px;
+  }
 }
 
 /* ===== 데스크탑 설정 ===== */
