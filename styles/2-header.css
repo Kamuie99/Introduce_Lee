@@ -112,4 +112,7 @@
   .header__menu-btn {
     display: none;
   }
+  .section__header {
+    margin-top: 40px;
+  }
 }
