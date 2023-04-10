@@ -70,10 +70,10 @@
 
 @media (min-width: 769px) {
   .intro {
-    height: 500px;
+    height: 600px;
   }
   .intro__type {
-    margin-top: 220px;
+    margin-top: 280px;
     align-items: center;
   }
   .intro__type span {
