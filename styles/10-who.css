@@ -75,8 +75,12 @@
     font-size: 20px;
   }
   .who__text {
-    font-size: 16px;
+    font-size: var(--font-size-mobile);
     width: 110%;
+  }
+  .who__icon {
+    margin-top: 30px;
+    opacity: 1;
   }
 }
 

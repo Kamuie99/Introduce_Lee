@@ -31,6 +31,7 @@
   --font-size-tag: 26px;
   --font-size-larger: 20px;
   --font-size-text: 18px;
+  --font-size-mobile: 16px;
 
   --height-toolbar: 72px;
 }
@@ -96,3 +97,11 @@ address { font-style: inherit; }
 	white-space: nowrap;
 	border-width: 0;
 }
+
+/* ===== 모바일 설정 ===== */
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 35px;
+  }
+}
+
